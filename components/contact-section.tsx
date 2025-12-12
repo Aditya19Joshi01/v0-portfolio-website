@@ -18,8 +18,21 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
-    console.log("Form submitted:", formData)
+
+    // Create mailto link with pre-filled subject and body
+    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`)
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)
+    const mailtoLink = `mailto:aditya19joshi01@gmail.com?subject=${subject}&body=${body}`
+
+    // Open email client
+    window.location.href = mailtoLink
+
+    // Reset form after submission
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    })
   }
 
   return (
