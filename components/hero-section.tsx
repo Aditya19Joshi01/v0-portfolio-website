@@ -16,7 +16,11 @@ export function HeroSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="gap-2" asChild>
-              <a href="https://coral-moyra-52.tiiny.site/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://drive.google.com/file/d/13QD0gQ-SMrVamUaMfadIZVXMJnKkwzj-/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FileText className="h-5 w-5" />
                 View Resume
               </a>
