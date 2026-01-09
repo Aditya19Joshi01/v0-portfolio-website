@@ -7,11 +7,13 @@ const experiences = [
     company: "Nokia",
     location: "Bangalore, India",
     period: "January 2025 - June 2025",
-    bullets: [
-      "Automated KPI Degradation Check, reducing analysis time by 80% via rule-based logic & visual reporting dashboards.",
-      "Enhanced ESM by debugging logic affecting cell sleep; integrated visualizations for energy/cost impact for all vendors.",
-      "Developed a Configuration validation framework with OOP principles, boosting test validation efficiency by 90%.",
-      "Collaborated in Agile sprints, participated in peer code reviews, and supported testing automation.",
+    bullets: 
+    [
+      "Automated monitoring & visual dashboards to highlight performance degradation, reducing investigation time by 80%.",
+      "Surfaced operational insights to improve energy savings transparency with multi-vendor support & displayed energy/cost impact for every cell across the RAN, Supported with comprehensive testing and CI.",
+      "Developed a modular Python-based configuration validation framework that cross-referenced INI files with parameter metadata parsed from technical PDFs, identifying misconfigurations and missing settings.",
+      "Supported feature rollout by validating system behavior, ensuring safe deployment & improving operational visibility.",
+      "Worked in Agile sprints, contributed to code reviews, demonstrated features & supported test automation efforts.",
     ],
     tech: ["Python", "Automation", "Agile", "Testing", "Code Reviews", "Dashboards"],
     brandColor: "#124191",

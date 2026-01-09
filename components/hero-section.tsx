@@ -17,7 +17,7 @@ export function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="gap-2" asChild>
               <a
-                href="https://drive.google.com/file/d/13QD0gQ-SMrVamUaMfadIZVXMJnKkwzj-/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Tua-_W8KrG0LCL4yYvqH1cGsBu0fERlv/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
